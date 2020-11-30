@@ -1,34 +1,24 @@
-html{
-    background-color: rgb(53, 50, 50);
-    margin: 0%;
-    padding: 0%;
-}
 
-.img{
-    border-style: inset;
-    position: relative;
-}
 
 .indice {
-    background-color: rgb(139, 195, 221);
-    margin: 3%;
-    padding: 6.em;
-    border-style: inset;
-    font-family: 'Segoe UI';
-    text-align-last: center;
+    margin: 10px;
+    padding: 20px;
+    font-family:'Segoe UI';
+    border: outset;
+    -webkit-text-fill-color: antiquewhite;
 }
 
  .introduction {
-    background-color: rgb(225, 225, 76);
-    margin: 3%;
-    padding: 5.em;
-    border-style: inset;
+    margin: 10px;
+    height: 80px;
+    padding: 10px;
     font-family:'Segoe UI';
-    text-align-last: center;
+    border: outset;
+    -webkit-text-fill-color: antiquewhite;
 }
 
 .flex-container {
-    padding: 100px;
+    padding: relative;
 }
     
 .cards{
@@ -41,14 +31,17 @@ html{
     justify-content: space-around;
     flex-wrap: wrap;
     list-style: none;
-    font-family: fantasy;
+    font-family: 'Segoe UI';
     align-items: center;
+    -webkit-text-fill-color: antiquewhite;
+    text-decoration: overline;
     
 }
 .form {
-    margin: 40px;
+    padding: 20px;
+    height: 28px;
+    margin: 10px;
     text-align-last: center;
-    background-color:rgb(139, 195, 221);
     border-style: inset;
 }   
     
@@ -100,13 +93,29 @@ html{
     /* background-color */
     }
 
-    .Curiosidades{
+ .Curiosidades{
         width: 115px;
         height: 35px;
         border-style: inset;
         font-family: 'Segoe UI';
         /* background-color */
         }
-    curiosidades.html{
+.iframe{
+    margin-left:350px;
+    border: inset;
+}
 
+.bio {
+    padding: 30px;
+    margin: 10px;
+    border-style: inset;
+    -webkit-text-fill-color: antiquewhite;
+}
+
+    .projetolab{
+        padding: 10px;
+        margin: 10px;
+        border-style: inset;
+        -webkit-text-fill-color: #05C7F2;
+        text-align: center;
     }
