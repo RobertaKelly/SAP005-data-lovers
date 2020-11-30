@@ -68,3 +68,4 @@ export const species = (list) => {
   ["Humanoid", charactersNames.Humanoid],
   ["Alien", charactersNames.Alien]["Cronenberg", charactersNames.Cronenberg]]
 }
+
