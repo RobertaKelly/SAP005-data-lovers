@@ -81,11 +81,13 @@
         <option value="sortZA">Z/A</option>
       </select>
     </form> 
-    <p id="searchNames">Pesquise o nome de personagens aqui:</p>
-    <input type="text" class= searchArea id="nameSearch" placeholder="Ex: Rick">
-     
+    <section>
+     <p id="searchNames">Pesquise o nome de personagens aqui:</p>
+     <input type="search" class= searchArea id="nameSearch" placeholder="Ex: Rick">
+     <button class="btn" id="searchBtn">Pesquisar</button>
+    </section>
     <section class="flex-container">
-    <ul id="cards" class="cards"></ul> 
+    <ul id="showCards" class="cards"></ul> 
      </section>
 
     <div id="root"></div>
