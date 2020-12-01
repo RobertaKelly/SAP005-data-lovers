@@ -2,26 +2,34 @@ import data from './data/rickandmorty/rickandmorty.js';
 export const elements = data.results
 export const info = (vector) => {
   return vector.map(function (item) {
-    return [item.name, item.image, item.gender, item.status, item.species]
+    return {name:item.name, image:item.image, gender:item.gender, status:item.status, species:item.species}
   })
 };
-export const filterAllInfo = (data, value) => {
+export const orderAZ = (item) => {
+  return info(item).sort(function (a, b) {
+    if (a.name > b.name) {
+      return 1;
+    }
+    if (a.name < b.name) {
+      return -1;
+    }
+    return 0;
+  });
+};
+export const orderZA = (item) => {
+  return orderAZ(item).reverse();
+}
+export const naturalOrder = (item) => {
+  return info(item);
+}
+export const filterAllInfo = (list, data, value) => {
   let arrayFilters = [];
-  arrayFilters = elements.filter(item =>{
+  arrayFilters = list.filter(item =>{
     if(item[data] === value){
       return item;
     }
   });
   return arrayFilters
-}
-export const naturalOrder = (item) => {
-  return info(item);
-}
-export const orderAZ = (item) => {
-  return info(item).sort();
-};
-export const orderZA = (item) => {
-  return orderAZ(item).reverse();
 }
 export const status = (list) => {
   const data = list.map(function(item){
@@ -71,4 +79,4 @@ export const species = (list) => {
   ["Alien", charactersNames.Alien]["Cronenberg", charactersNames.Cronenberg], ["Animal", charactersNames.Animal], ["Robot", charactersNames.Robot]]
 }
 export const searchNames = (data, name) =>
-(data.filter(search => search.name.toUpperCase().includes(name.toUpperCase())));
+data.filter(search => search.name.toUpperCase().includes(name.toUpperCase()));
