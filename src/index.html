@@ -1,94 +1,90 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <meta charset="utf-8">
-    <title>Rick and Morty</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-    
-      html {background-image: url("img/galaxia\ 1.png");}
-    </style>
-    <figure> 
-      <img style= "margin-left:250px;" src="https://upload.wikimedia.org/wikipedia/en/c/c8/Rick_and_Morty_logo.png" width="659" height="280">
-      <iframe src="https://www-ccv.adobe.io/v1/player/ccv/D7EYJg_wqQX/embed?api_key=behance1&amp;bgcolor=%23191919" style="position: absolute; top: 40px; left: 10px; margin-left: 10px; width: 40%; height: 50%; margin-top: 260px;"></iframe>
-    <img style="margin-left: 600px;border: inset; width: 50%; height: 50%;" src="img/rickcontrole1.png">
-  </figure>
-  </head>
-  <body>
-    <main class="indice"> 
-      <h2><strong><a href="https://www.netflix.com/watch/80014749?trackId=14170032&tctx=1%2C0%2C38fad061-f12d-4dd7-a7cf-8abffb2e5bc9-20594337%2C83ed551e-11ac-42a4-a50e-df22d9196acd_67802527X6XX1606603335018%2C83ed551e-11ac-42a4-a50e-df22d9196acd_ROOT%2C" target="_blank">Rick and Morty</a> é uma série de animação adulta de comédia e ficção científica criada pelo norte-americano Justin Roiland e Dan Harmon. 
-        A origem da série foi uma paródia animada em curta-metragem do filme De Volta Para o Futuro criada por Roiland para o festival de cinema Channel 101.
-        A Adult Swim abordou Harmon a respeito de ideias para um programa de televisão, então ele e Roiland desenvolveram o programa com base no curta,
-        substituindo os personagens de Doc com Rick e Marty com Morty.</strong></h2>
-        </main>    
-        <main class="projetolab">
-           <h2>Projeto II /Lab SAP005 
-          <a href="https://github.com/gabriella-guimaraes"target="_blank">Gabriella Guimarães</a>/<a href="https://github.com/RobertaKelly" target="_blank">Roberta Kelly</a></h2>
-          </main>
-        <main class="introduction">
-          <p><strong>Nessa página poderá encontrar informações sobre os personagens, curiosidades e videos da série. Basta clicar no botão "pesquisar" e fazer a busca das informações desejadas.</strong></p>
-        </main>
-        <form class="form">
-          <select class="Curiosidades" id="Curiosidades-caracteristiscas">
-            <option value="nune" selected>Curiosidades</option>
-            <option value="Trailler">Trailler</option>
-          </select>
-  
-          <select class="Personagens" id="Personagens-caracteristiscas">
-          <option value="nune" selected>Personagens</option>
-          <option value="PersongensPrincipais">Principais</option>
-          <option value="PersonagensRecorrentes">Recorrentes</option> 
-        </select>
-      
-        <select class="Gêneros" id="Gêneros-quantidade">
-          <option value="nune" selected>Gêneros</option>
-          <option value="Femininos">Femininos</option>
-          <option value="Masculinos">Masculinos</option>
-          <option value="Sem-gênero">Desconhecido</option>
-        </select>
-  
-        <select class="Caracteristicas" id="Caracteristicas-quantidade">
-          <option value="nune" selected>Estados</option>
-          <option value="Vivos">Vivos</option>
-          <option value="Mortos">Mortos</option>
-          <option value="Desconhecidos">Desconhecidos</option>
-        </select>
-  
-        <select class="Especies" id="Especies-quantidade">
-          <option value="nune" selected>Especíes</option>
-          <option value="Humanos">Humanos</option>
-          <option value="Humanoids">Humanoids</option>
-          <option value="Aliens">Aliens</option>
-          <option value="Animais">Animais</option>
-          <option value="Cronenberg">Cronenbergs</option>
-          <option value="Robot">Robots</option>
-        </select>
-  
-  
-        <select class="Temporadas" id="Temporadas-quantidade">
-          <option value="nune" selected>Temporadas</option>
-          <option value="1ª Temporada ">1ª Temporada</option>
-          <option value="2ª Temporada">2ª Temporada</option>
-          <option value="3ª Temporada ">3ª Temporada</option>
-          <option value="4ª Temporada">4ª Temporada</option>
-        </select>
-  
-      </select>
-      <select class="sort" id="sort-characters">
-        <option value="nune" selected>Ordenar</option>
-        <option value="sortAZ">A/Z</option>
-        <option value="sortZA">Z/A</option>
-      </select>
-    </form> 
-    <p id="searchNames">Pesquise o nome de personagens aqui:</p>
-    <input type="text" class= searchArea id="nameSearch" placeholder="Ex: Rick">
-     
-    <section class="flex-container">
-    <ul id="cards" class="cards"></ul> 
-     </section>
 
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      background-image: url("img/galaxia\ 1.png");
+    }
+  </style>
+  <div id="logo-img">
+    <img class="img-logo" src="https://upload.wikimedia.org/wikipedia/en/c/c8/Rick_and_Morty_logo.png"
+      alt="logotipo Rick and Morty">
+    </di>
+    <div class="embed-responsive1">
+      <iframe class="embed-iframe1"
+        src="https://www-ccv.adobe.io/v1/player/ccv/D7EYJg_wqQX/embed?api_key=behance1&amp;bgcolor=%23191919"></iframe>
+    </div>
+    <div id="img">
+      <img class="img" src="img/rickcontrole1.png" alt="Rick com Controle de Portal">
+      <figure class="figure">Rick Controle de Portal</figure>
+    </div>
+</head>
+
+<body class="body">
+  <main class="indice">
+    <h2><strong><a
+          href="https://www.netflix.com/watch/80014749?trackId=14170032&tctx=1%2C0%2C38fad061-f12d-4dd7-a7cf-8abffb2e5bc9-20594337%2C83ed551e-11ac-42a4-a50e-df22d9196acd_67802527X6XX1606603335018%2C83ed551e-11ac-42a4-a50e-df22d9196acd_ROOT%2C"
+          target="_blank">Rick and Morty</a> é uma série de animação adulta de comédia e ficção científica criada pelo
+        norte-americano Justin Roiland e Dan Harmon.
+        A origem da série foi uma paródia animada em curta-metragem do filme De Volta Para o Futuro criada por Roiland
+        para o festival de cinema Channel 101.
+        A Adult Swim abordou Harmon a respeito de ideias para um programa de televisão, então ele e Roiland
+        desenvolveram o programa com base no curta,
+        substituindo os personagens de Doc com Rick e Marty com Morty.</strong></h2>
+  </main>
+  <main class="projetolab">
+    <h2>Projeto II /Lab SAP005
+      <a href="https://github.com/gabriella-guimaraes" target="_blank">Gabriella Guimarães</a>/<a
+        href="https://github.com/RobertaKelly" target="_blank">Roberta Kelly</a></h2>
+  </main>
+  <main class="introduction">
+    <p><strong>Nessa página poderá encontrar informações sobre os personagens, curiosidades e videos da série. Basta
+        clicar no botão "pesquisar" e fazer a busca das informações desejadas.</strong></p>
+  </main>
+
+  <select class="Gêneros" id="Gêneros-quantidade">
+    <option value="nune" selected>Gêneros</option>
+    <option value="Femininos">Femininos</option>
+    <option value="Masculinos">Masculinos</option>
+    <option value="Sem-gênero">Desconhecido</option>
+  </select>
+
+  <select class="Caracteristicas" id="Caracteristicas-quantidade">
+    <option value="nune" selected>Estados</option>
+    <option value="Vivos">Vivos</option>
+    <option value="Mortos">Mortos</option>
+    <option value="Desconhecidos">Desconhecidos</option>
+  </select>
+
+  <select class="Especies" id="Especies-quantidade">
+    <option value="nune" selected>Especíes</option>
+    <option value="Humanos">Humanos</option>
+    <option value="Humanoids">Humanoids</option>
+    <option value="Aliens">Aliens</option>
+    <option value="Animais">Animais</option>
+    <option value="Cronenberg">Cronenbergs</option>
+    <option value="Robot">Robots</option>
+  </select>
+
+  <select class="sort" id="sort-characters">
+    <option value="nune" selected>Ordenar</option>
+    <option value="sortAZ">A/Z</option>
+    <option value="sortZA">Z/A</option>
+  </select>
+  
+  <p id="searchNames">Pesquise o nome de personagens aqui:</p>
+  <input type="text" class=searchArea id="nameSearch" placeholder="Ex: Rick">
+
+  <section class="flex-container">
+    <ul id="cards" class="cards"></ul>
+  </section>
+
+  <div id="root"></div>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
