@@ -8,7 +8,7 @@
 * [4.Perfil do usuário 
 * [5.Fluxograma
 * [6.Definições de Usuário
-* [7.Como a Inferface Funciona 
+* [7.Como a Interface Funciona 
 * [8.Interface
 
 ***
@@ -86,7 +86,7 @@ E os usuários que ainda não conhecem, terão acesso a resumo da série uma min
 ![Fluxograma](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Peojeto%20Data%20Lovres%20Fluxograma.jpg)
 
 
-## 7.Como a Inferface Funciona 
+## 7.Como a Interface Funciona 
 
 Como interface funciona :
 
