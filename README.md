@@ -7,8 +7,9 @@
 * [3.Pesquisa de usuário
 * [4.Perfil do usuário 
 * [5.Fluxograma
-* [6.Definições da Interface
-* [7.Interface
+* [6.Definições de Usuário
+* [7.Como a Inferface Funciona 
+* [8.Interface
 
 ***
 
@@ -22,11 +23,6 @@
 ## 3.Pesquisa de Usuário 
 ![Pesquisa de Usuário](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20(1)Pesquisa.jpg)
 
-
-## 4.Perfil do usuário 
-![Perfil do usuário](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20Usuario.jpg)
- 
- 
  ## Faixa etária Usuário :
 * Jovem de 16 a 35 anos  
 
@@ -66,15 +62,15 @@
 * Netflix
 * TV por Assinatura 
 
+## 4.Perfil do usuário 
+![Perfil do usuário](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20Usuario.jpg)
+ 
 
-## 5.Fluxograma
-![Fluxograma](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Peojeto%20Data%20Lovres%20Fluxograma.jpg)
-
-## 6.Definições da Interface
+## 5.Definições de Usuário :
 
 # Quais são os objetivos dos usuários com relação ao produto?
 
- Nessa Interface o usuário poderá tirar suas dúvidas sobre o perfil dos personagens da série, utilizando botões com opções de gêneros, estados, espécies, localizações ,curiosidades e vídeos. 
+ Nessa Interface o usuário poderá tirar suas dúvidas sobre o perfil dos personagens da série, utilizando botões com opções de gêneros, estados, espécies ,curiosidades e vídeos. 
 
 # Quais são os dados mais relevantes que querem ver na interface e por quê?
 
@@ -86,8 +82,29 @@
 E os usuários que ainda não conhecem, terão acesso a resumo da série uma mini biografia dos personagens principais e vídeos Teaser e curiosidades.
 
 
-## 7.Interface
-![interface](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20(4)%20Interface.jpg)
+## 6.Fluxograma
+![Fluxograma](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Peojeto%20Data%20Lovres%20Fluxograma.jpg)
 
+
+## 7.Como a Inferface Funciona 
+
+Como interface funciona :
+
+O Usuário poderá acessar informações sobre os personagem utilizando os botões e comandos :
+
+* (Genêros) , Feminios, Masculinos 
+* (Estado)  Vivo , Morto 
+* (Espécies) Humano, Humanoids , Aliens 
+* (Odenar) A /Z e Z/A 
+* Digitar os nomes de personagem em campo de pesquisa 
+* Obter quantidades de personagens por perfil selecionados 
+* 2ª Pagina com ( Curiosidades)
+* Acessar a uma mini biografia dos personagens principais 
+* Imagemns, Vídeos 
+* Clicando em (Pagina inicial) o usuário poderá retornar ao inicio do site 
+
+
+ ## 8.Interface
+![interface](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20(4)%20Interface.jpg)
 
 
