@@ -100,7 +100,7 @@ O Usuário poderá acessar informações sobre os personagem utilizando os botõ
 * Obter quantidades de personagens por perfil selecionados 
 * 2ª Pagina com ( Curiosidades)
 * Acessar a uma mini biografia dos personagens principais 
-* Imagemns, Vídeos 
+* Imagens, Vídeos 
 * Clicando em (Pagina inicial) o usuário poderá retornar ao inicio do site 
 
 
