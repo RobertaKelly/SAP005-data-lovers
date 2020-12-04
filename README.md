@@ -51,15 +51,15 @@
 * Tablet
 
 ## Interesses e assuntos : 
-*Geek e Nerds 
+* Geek e Nerds 
 * Games , Séries 
  * Filmes de ficção cientifica (Sci-fi)
 * Futurismo
 
 ## Relações Sociais : 
-*Assistem sozinhos 
+* Assistem sozinhos 
 * Ativos em Redes Sociais, principalmente (Twitter)
-*Compartilham conteúdo da serie em redes sociais
+* Compartilham conteúdo da serie em redes sociais
 * desejam conhecer pessoas que assistem a série
 
 ## Utilizam serviços de Streaming:
