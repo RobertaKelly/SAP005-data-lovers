@@ -2,7 +2,13 @@ import data from './data/rickandmorty/rickandmorty.js';
 export const elements = data.results
 export const info = (vector) => {
   return vector.map(function (item) {
-    return {name:item.name, image:item.image, gender:item.gender, status:item.status, species:item.species}
+    return {
+      name: item.name,
+      image: item.image,
+      gender: item.gender,
+      status: item.status,
+      species: item.species
+    }
   })
 };
 export const orderAZ = (item) => {
@@ -24,8 +30,8 @@ export const naturalOrder = (item) => {
 }
 export const filterAllInfo = (list, data, value) => {
   let arrayFilters = [];
-  arrayFilters = list.filter(item =>{
-    if(item[data] === value){
+  arrayFilters = list.filter(item => {
+    if (item[data] === value) {
       return item;
     }
   });
@@ -88,7 +94,7 @@ export const species = (list) => {
   ]
 }
 export const searchNames = (input, characterName) => {
-  const search = characterName.filter(item =>{
+  const search = characterName.filter(item => {
     return item.name.toUpperCase().substr(0, input.lenght).includes(input)
   });
   return filterAllInfo(search);
@@ -96,6 +102,6 @@ export const searchNames = (input, characterName) => {
 // export const statistics = (elements) => {
 //   return ((elements.length*100)/493).toFixed();
 // }
-export const statistics = (data,typeData,condition) => data.reduce((initialType, totalType) => {
+export const statistics = (data, typeData, condition) => data.reduce((initialType, totalType) => {
   return initialType + (totalType[typeData] === condition);
-},0)
+}, 0)
