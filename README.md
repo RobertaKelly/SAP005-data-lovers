@@ -13,6 +13,7 @@
 ***
 
 ## 1. Tema : Rick and Morty 
+* Rick and Morty é uma série de animação adulta norte-americana de comédia e ficção científica criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network.
 
 ## 2. Protótipo
 ![Protótipo](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20Prototipo.jpg)
@@ -24,6 +25,46 @@
 
 ## 4.Perfil do usuário 
 ![Perfil do usuário](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20Usuario.jpg)
+ 
+ 
+ ## Faixa etária Usuário :
+* Jovem de 16 a 35 anos  
+
+## Preferências : 
+* Humor 
+* Piada 
+* Ficção Cientifica
+* Programas e séries de animação 
+* Comédia sarcásticas 
+* Estéticas futuristas
+* SCI-FI 
+* Games
+
+## Estilo Musicais : 
+* Sound track  
+* Rock 
+* Hip hop 
+* Rap
+
+## Dispositivos mais utilizados para assistir Séries :
+* Celular 
+* Tablet
+
+## Interesses e assuntos : 
+*Geek e Nerds 
+* Games , Séries 
+ * Filmes de ficção cientifica (Sci-fi)
+* Futurismo
+
+## Relações Sociais : 
+*Assistem sozinhos 
+* Ativos em Redes Sociais, principalmente (Twitter)
+*Compartilham conteúdo da serie em redes sociais
+* desejam conhecer pessoas que assistem a série
+
+## Utilizam serviços de Streaming:
+* Netflix
+* TV por Assinatura 
 
 
 ## 5.Fluxograma
