@@ -203,3 +203,14 @@ body {
   -webkit-text-fill-color: antiquewhite;
   margin-left: 40vw;
 }
+.curiosidadesHtml2 {
+  display: flex;
+	flex-wrap: wrap;
+	margin: 30px;
+	padding: 20px;
+	font-size: 16px;
+	/* border: outset; */
+  -webkit-text-fill-color: #e9f6f7;
+  font-size: 16px;
+
+}
