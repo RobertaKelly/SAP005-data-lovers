@@ -1,12 +1,5 @@
 import data from './data/rickandmorty/rickandmorty.js';
-import {
-  filterAllInfo,
-  orderAZ,
-  orderZA,
-  elements,
-  searchNames,
-  statistics
-} from './data.js';
+import { filterAllInfo, orderAZ, orderZA, elements, searchNames, statistics } from './data.js';
 const getInfo = data.results
 const showStatistics = document.getElementById("printCalculaations");
 
