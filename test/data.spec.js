@@ -1,5 +1,4 @@
-import { orderAZ, orderZA, filterAllInfo, status, gender, species, searchNames, statistics } from '../src/data.js';
-
+import { orderAZ, orderZA, filterAllInfo, status, gender, searchNames, statistics } from '../src/data.js';
 describe('orderAZ', () => {
   it('is a function', () => {
     expect(typeof orderAZ).toBe('function');
@@ -93,37 +92,36 @@ describe('gender', () => {
     expect(gender(characters)).toEqual([["Female", 1], ["Male", 2], ["unknown", undefined]]);
   });
 });
-describe('species', () => {
-  it('is a function', () => {
-    expect(typeof species).toBe('function');
-  });
-  it('returns the species', () => {
-    const characters = [{
-      "name": "Rick",
-      "gender": "Male",
-      "status": "Alive",
-      "species": "Human",
-    },
-    {
-      "name": "Morty",
-      "gender": "Male",
-      "status": "Alive",
-      "species": "Human",
-    },
-    {
-      "name": "Summer",
-      "gender": "Female",
-      "status": "Alive",
-      "species": "Human",
-    },];
-    expect(species(characters)).toEqual([["Human", 3], ["Humanoid", undefined], ["Alien", undefined], ["Cronenberg", undefined], ["Animal", undefined], ["Robot", undefined]]);
-  });
-});
+// describe('species', () => {
+//   it('is a function', () => {
+//     expect(typeof species).toBe('function');
+//   });
+//   it('returns the species', () => {
+//     const characters = [{
+//       "name": "Rick",
+//       "gender": "Male",
+//       "status": "Alive",
+//       "species": "Human",
+//     },
+//     {
+//       "name": "Morty",
+//       "gender": "Male",
+//       "status": "Alive",
+//       "species": "Human",
+//     },
+//     {
+//       "name": "Summer",
+//       "gender": "Female",
+//       "status": "Alive",
+//       "species": "Human",
+//     },];
+//     expect(species(characters)).toEqual([["Human", 3], ["Humanoid", undefined], ["Alien", undefined], ["Cronenberg", undefined], ["Animal", undefined], ["Robot", undefined]]);
+//   });
+// });
 describe('searchNames', () => {
   it('is a function', () => {
     expect(typeof searchNames).toBe('function');
   });
-
   it('should return an "Summer" for "Summer"', () => {
     const characters = [{
       "name": "Rick",
@@ -173,4 +171,4 @@ describe('statistics', () => {
     },];
     expect(statistics(characters, "status", "Alive")).toEqual(3);
   })
-});
+}); 

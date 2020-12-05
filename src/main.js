@@ -16,12 +16,12 @@ function charactersInfo(list) {
   document.getElementById("showCards").innerHTML = insertHtml;
 }
 charactersInfo(getInfo);
+//filter: Gender
 const genderSelector = document.getElementById("Gêneros-quantidade");
 genderSelector.addEventListener("change", genderFilter);
 
 function genderFilter() {
   if (genderSelector.value === "Femininos") {
-    event.preventDefault()
     showStatistics.innerHTML = `O número de personagens dessa categoria é ${statistics(elements, "gender", "Female")}`
     return charactersInfo(filterAllInfo(elements, "gender", "Female"));
   } else if (genderSelector.value === "Masculinos") {
@@ -32,13 +32,12 @@ function genderFilter() {
     return charactersInfo(filterAllInfo(elements, "gender", "unknown"));
   }
 }
-
+//filter: Status
 const statusSelector = document.getElementById("Caracteristicas-quantidade");
 statusSelector.addEventListener("change", statusFilter);
 
 function statusFilter() {
   if (statusSelector.value === "Vivos") {
-    event.preventDefault()
     showStatistics.innerHTML = `O número de personagens dessa categoria é ${statistics(elements, "status", "Alive")}`
     return charactersInfo(filterAllInfo(elements, "status", "Alive"))
   } else if (statusSelector.value === "Mortos") {
@@ -49,12 +48,11 @@ function statusFilter() {
     return charactersInfo(filterAllInfo(elements, "status", "unknown"))
   }
 }
-
+//filter: Species
 const speciesSelector = document.getElementById("Especies-quantidade")
 speciesSelector.addEventListener("change", speciesFilter)
 
 function speciesFilter() {
-  event.preventDefault()
   if (speciesSelector.value === "Humanos") {
     showStatistics.innerHTML = `O número de personagens dessa categoria é ${statistics(elements, "species", "Human")}`
     return charactersInfo(filterAllInfo(elements, "species", "Human"))
@@ -75,19 +73,18 @@ function speciesFilter() {
     return charactersInfo(filterAllInfo(elements, "species", "Robot"))
   }
 }
-
+//filter: order AZ/ZA
 const sortSelector = document.getElementById("sort-characters");
 sortSelector.addEventListener("change", sortBy);
 
 function sortBy() {
-  event.preventDefault()
   if (sortSelector.value === "sortAZ") {
     return charactersInfo(orderAZ(elements))
   } else if (sortSelector.value === "sortZA") {
     return charactersInfo(orderZA(elements))
   }
 }
-
+//function search
 const searchInput = document.getElementById("nameSearch");
 searchInput.addEventListener("keyup", () => charactersInfo(searchNames(searchInput.value.toUpperCase(), elements)));
-
+//calculations
