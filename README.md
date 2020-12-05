@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Tema : Rick and Morty](#1-tema-:-rick-and-morty)
+* [1. Tema Rick and Morty](#1-tema-rick-and-morty)
 * [2. Protótipo](#2-protótipo)
 * [3. Pesquisa de usuário](#3-pesquisa-de-usuário)
 * [4. Perfil e História do usuário](#4-perfil-e-história-do-usuário)
@@ -14,7 +14,7 @@
 
 ***
 
-## 1. Tema : Rick and Morty 
+## 1. Tema Rick and Morty 
 * Rick and Morty é uma série de animação adulta norte-americana de comédia e ficção científica criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network.
 
 ## 2. Protótipo
