@@ -5,10 +5,10 @@
 * [1. Tema](#1-tema-:-rick-and-morty)
 * [2. Protótipo](#2-protótipo)
 * [3. Pesquisa de usuário](#3-pesquisa-de-usuário)
-* [4. Perfil e História do usuário] (#4-perfil-do-usuário)
-* [5. Definições de Usuário] (#5-definições-de-usuário-:)
+* [4. Perfil e História do usuário] (#4-perfil-e-história-do-usuário)
+* [5. Definições de Usuário] (#5-definições-de-usuário)
 * [6. Fluxograma] (#6-fluxograma)
-* [7. Como a Interface Funciona] (#7-como-interface-funciona)
+* [7. Como a Interface Funciona] (#7-como-a-interface-funciona)
 * [8. Interface] (#8-interface)
 * [9. Desenvolvimento] (#9-desenvolvimento)
 
@@ -63,11 +63,11 @@
 * Netflix
 * TV por Assinatura 
 
-## 4.Perfil do usuário 
+## 4.Perfil e História do usuário 
 ![Perfil do usuário](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20Usuario.jpg)
  
 
-## 5.Definições de Usuário :
+## 5.Definições de Usuário 
 
 ## Quais são os objetivos dos usuários com relação ao produto?
 
