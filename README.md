@@ -2,15 +2,15 @@
 
 ## Índice
 
-* [1. Tema](#1-tema-:-rick-and-morty)
+* [1. Tema : Rick and Morty](#1-tema-:-rick-and-morty)
 * [2. Protótipo](#2-protótipo)
 * [3. Pesquisa de usuário](#3-pesquisa-de-usuário)
-* [4. Perfil e História do usuário] (#4-perfil-e-história-do-usuário)
-* [5. Definições de Usuário] (#5-definições-de-usuário)
-* [6. Fluxograma] (#6-fluxograma)
-* [7. Como a Interface Funciona] (#7-como-a-interface-funciona)
-* [8. Interface] (#8-interface)
-* [9. Desenvolvimento] (#9-desenvolvimento)
+* [4. Perfil e História do usuário](#4-perfil-e-história-do-usuário)
+* [5. Definições de Usuário](#5-definições-de-usuário)
+* [6. Fluxograma](#6-fluxograma)
+* [7. Como a Interface Funciona](#7-como-a-interface-funciona)
+* [8. Interface](#8-interface)
+* [9. Desenvolvimento](#9-desenvolvimento)
 
 ***
 
