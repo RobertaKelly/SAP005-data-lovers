@@ -148,22 +148,10 @@ body {
   color: rgb(69, 245, 230);
 }
 
-/*ajuste de video html 1*/
-.embed-iframe1 {
-  width: 50vw;
-  height: 50vh;
-  margin-left: 20vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
-
 /* ajutos de videos*/
 .embed-responsive {
   position: relative;
   width: 100%;
-  margin-left: 40%;
   margin-top: 0%;
   display: inline-block;
 
@@ -171,17 +159,12 @@ body {
 
 .embed-iframe {
   width: 30vw;
-
-}
-
-/*ajuste video html1*/
-.embed-iframe1 {
-  width: 30vw;
   height: 35vh;
   margin-left: 30vw;
   margin-top: 4vw;
 
 }
+
 
 /*logo tipo rick* html e curiosidades*/
 .img-logo {
@@ -240,15 +223,27 @@ body {
 /*descrição das fotos*/
 .figure {
   -webkit-text-fill-color: antiquewhite;
-  margin-left: 5vw;
+  margin-left: 38vw;
 }
 
 /*Curiosidades Titulo*/
 .titulo {
   font-family: cursive;
-  margin-right: 84vw;
+  margin: 10px;
 }
 .curiosidadesHtml2 {
-  margin: 30px;
+  margin: 10px;
   border: inset;
+  border-radius: 20px;
+  padding: 30px;
+  
+}
+
+.Fatos{
+  font-family: cursive;
+  margin: 10px;
+}
+
+.calculations{
+  text-align: center;
 }
