@@ -5,11 +5,12 @@
 * [1.Tema 
 * [2.Protótipo
 * [3.Pesquisa de usuário
-* [4.Perfil do usuário 
+* [4.Perfil e História do usuário 
 * [5.Fluxograma
 * [6.Definições de Usuário
 * [7.Como a Interface Funciona 
 * [8.Interface
+* [9.Desenvolvimento
 
 ***
 
@@ -68,15 +69,15 @@
 
 ## 5.Definições de Usuário :
 
-# Quais são os objetivos dos usuários com relação ao produto?
+## Quais são os objetivos dos usuários com relação ao produto?
 
  Nessa Interface o usuário poderá tirar suas dúvidas sobre o perfil dos personagens da série, utilizando botões com opções de gêneros, estados, espécies ,curiosidades e vídeos. 
 
-# Quais são os dados mais relevantes que querem ver na interface e por quê?
+## Quais são os dados mais relevantes que querem ver na interface e por quê?
 
  Em nossa pesquisa, os usuários gostariam de saber mais detalhes sobre o perfil dos personagem e curiosidades. 
 
-# Quando utilizam ou utilizariam o produto?
+## Quando utilizam ou utilizariam o produto?
 
  Os usuários que já assistem a série, utilizaram no momento que tiverem dúvidas sobre nomes dos personagem e detalhes sobre episódios e etc. 
 E os usuários que ainda não conhecem, terão acesso a resumo da série uma mini biografia dos personagens principais e vídeos Teaser e curiosidades.
@@ -108,3 +109,9 @@ O Usuário poderá acessar informações sobre os personagem utilizando os botõ
 ![interface](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20(4)%20Interface.jpg)
 
 
+## Desenvolvimento 
+Nesse projeto foram utilizados:
+
+* HTML
+* Vanilla JavaScript
+* CSS
