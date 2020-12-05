@@ -2,15 +2,15 @@
 
 ## Índice
 
-* [1.Tema 
-* [2.Protótipo
-* [3.Pesquisa de usuário
-* [4.Perfil e História do usuário 
-* [5.Fluxograma
-* [6.Definições de Usuário
-* [7.Como a Interface Funciona 
-* [8.Interface
-* [9.Desenvolvimento
+* [1.Tema]
+* [2.Protótipo]
+* [3.Pesquisa de usuário]
+* [4.Perfil e História do usuário ]
+* [5.Fluxograma]
+* [6.Definições de Usuário]
+* [7.Como a Interface Funciona ]
+* [8.Interface]
+* [9.Desenvolvimento]
 
 ***
 
