@@ -33,7 +33,7 @@ body {
   -webkit-text-fill-color: antiquewhite;
 }
 
-/* contener dos cads*/
+
 .flex-container {
   padding: relative;
 }
@@ -112,7 +112,7 @@ body {
   font-family: 'Segoe UI';
 }
 
-/* biografica curiosidades*/
+
 .bio {
   padding: 30px;
   margin: 10px;
@@ -148,7 +148,7 @@ body {
   color: rgb(69, 245, 230);
 }
 
-/*ajuste de video html 1*/
+
 .embed-iframe1 {
   width: 50vw;
   height: 50vh;
@@ -159,7 +159,7 @@ body {
 
 }
 
-/* ajutos de videos*/
+
 .embed-responsive {
   position: relative;
   width: 100%;
@@ -174,7 +174,7 @@ body {
 
 }
 
-/*ajuste video html1*/
+
 .embed-iframe1 {
   width: 30vw;
   height: 35vh;
@@ -183,13 +183,13 @@ body {
 
 }
 
-/*logo tipo rick* html e curiosidades*/
+
 .img-logo {
   width: 70vw;
   margin-left: 15vw;
 }
 
-/*imagem curiosidades*/
+
 .img {
   width: 30vw;
   margin-left: 31vw;
@@ -201,7 +201,7 @@ body {
   border-radius: 20px;
 }
 
-/*imagem html rick*/
+
 .img2 {
   width: 40vw;
   margin-left: 50vw;
@@ -213,7 +213,7 @@ body {
   border-radius: 20px;
 }
 
-/*imagem 2 html rck e morty*/
+
 .img3 {
   width: 42vw;
   margin-left: 5vw;
@@ -226,7 +226,7 @@ body {
 
 }
 
-/* Rick Curiosidades*/
+
 .img-Rick {
   width: 30vw;
   margin-left: 28vw;
@@ -237,14 +237,19 @@ body {
   border-radius: 20px;
 }
 
-/*descrição das fotos*/
+
 .figure {
   -webkit-text-fill-color: antiquewhite;
   margin-left: 5vw;
 }
 
-/*Curiosidades Titulo*/
+
 .titulo {
   font-family: cursive;
   margin-right: 84vw;
+}
+
+.calculations {
+  text-align: center;
+  font-size: 20px;
 }
