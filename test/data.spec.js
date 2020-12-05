@@ -3,11 +3,13 @@ import { example, anotherExample } from '../src/data.js';
 
 describe('example', () => {
   it('is a function', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof species).toBe('function');
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('returns', () => {
+    [{"" }
+   ( '')
+    expect(filter(0).name).toBe("");
   });
 });
 
