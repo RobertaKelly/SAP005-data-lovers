@@ -1,12 +1,12 @@
 import data from './data/rickandmorty/rickandmorty.js';
 export const elements = data.results
-export const info = (vector) => {
-  return vector.map(function (item) {
-    return {name:item.name, image:item.image, gender:item.gender, status:item.status, species:item.species}
-  })
-};
+// export const info = (vector) => {
+//   return vector.map(function (item) {
+//     return {name:item.name, image:item.image, gender:item.gender, status:item.status, species:item.species}
+//   })
+// };
 export const orderAZ = (item) => {
-  return info(item).sort(function (a, b) {
+  return filterAllInfo(item).sort(function (a, b) {
     if (a.name > b.name) {
       return 1;
     }
@@ -14,14 +14,14 @@ export const orderAZ = (item) => {
       return -1;
     }
     return 0;
-  });
+  }); 
 };
 export const orderZA = (item) => {
   return orderAZ(item).reverse();
 }
-export const naturalOrder = (item) => {
-  return info(item);
-}
+// export const naturalOrder = (item) => {
+//   return info(item);
+// }
 export const filterAllInfo = (list, data, value) => {
   let arrayFilters = [];
   arrayFilters = list.filter(item =>{
@@ -93,9 +93,6 @@ export const searchNames = (input, characterName) => {
   });
   return filterAllInfo(search);
 }
-// export const statistics = (elements) => {
-//   return ((elements.length*100)/493).toFixed();
-// }
 export const statistics = (data,typeData,condition) => data.reduce((initialType, totalType) => {
   return initialType + (totalType[typeData] === condition);
 },0)
