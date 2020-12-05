@@ -2,15 +2,15 @@
 
 ## Índice
 
-* [1.Tema]
-* [2.Protótipo]
-* [3.Pesquisa de usuário]
-* [4.Perfil e História do usuário ]
-* [5.Fluxograma]
-* [6.Definições de Usuário]
-* [7.Como a Interface Funciona ]
-* [8.Interface]
-* [9.Desenvolvimento]
+* [1.Tema (## 1-Tema : Rick and Morty)
+* [2.Protótipo (## 2-Protótipo)
+* [3.Pesquisa de usuário(## 3-Pesquisa de Usuário)
+* [4.Perfil e História do usuário(## 4-Perfil do usuário)
+* [5.Definições de Usuário(## 5-Definições de Usuário :)
+* [6.Fluxograma(## 6-Fluxograma)
+* [7.Como a Interface Funciona (## 7-Como a Interface Funciona)
+* [8.Interface](## 8-Interface).
+* [9.Desenvolvimento](## 9-Desenvolvimento).
 
 ***
 
@@ -109,7 +109,7 @@ O Usuário poderá acessar informações sobre os personagem utilizando os botõ
 ![interface](https://github.com/RobertaKelly/SAP005-data-lovers/blob/b7c1c8578e9d15b8a987f4b5936a5918f5e9cedb/src/Readme/Projeto%20Data%20Lovers%20SAP005%20(4)%20Interface.jpg)
 
 
-## Desenvolvimento 
+## 9.Desenvolvimento 
 Nesse projeto foram utilizados:
 
 * HTML
