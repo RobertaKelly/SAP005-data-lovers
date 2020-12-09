@@ -21,7 +21,7 @@ body {
   flex-wrap: wrap;
   margin: 30px;
   padding: 20px;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-text-fill-color: #e9f6f7;
 }
 
@@ -70,6 +70,7 @@ body {
   border-radius: 50px;
   background: linear-gradient(rgb(69, 245, 230), rgb(204, 60, 204));
   cursor: pointer;
+  display: inline-block;
 }
 
 .button2 {
@@ -78,8 +79,8 @@ body {
   border-radius: 50px;
   background: linear-gradient(rgb(69, 245, 230), rgb(204, 60, 204));
   cursor: pointer;
-  margin-right: 84vw;
   margin-top: 1vw;
+  margin-left: 83vw;
 }
 
 #root {
@@ -91,6 +92,12 @@ body {
 
 .htmlBtn {
   display: inline-block;
+
+}
+
+.htmlBtn2 {
+  display: inline-block;
+  margin-right: -73vw;
 }
 
 #video {
@@ -119,16 +126,16 @@ body {
   border-style: inset;
   -webkit-text-fill-color: antiquewhite;
   border-radius: 20px;
-
+  font-size: 20px;
 }
 
 #logo {
-  width: 60%;
+  width: auto;
   height: 60%;
-  margin-left: 163px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
 }
 
 .search {
@@ -175,7 +182,7 @@ body {
 /*imagem curiosidades*/
 .img {
   width: 30vw;
-  margin-left: 31vw;
+  margin-left: 30vw;
   border: inset;
   display: flex;
   flex-wrap: wrap;
@@ -212,7 +219,7 @@ body {
 /* Rick Curiosidades*/
 .img-Rick {
   width: 30vw;
-  margin-left: 28vw;
+  margin-left: 27vw;
   border: inset;
   display: flex;
   flex-wrap: wrap;
@@ -231,19 +238,20 @@ body {
   font-family: cursive;
   margin: 10px;
 }
+
 .curiosidadesHtml2 {
   margin: 10px;
   border: inset;
   border-radius: 20px;
   padding: 30px;
-  
+
 }
 
-.Fatos{
+.Fatos {
   font-family: cursive;
   margin: 10px;
 }
 
-.calculations{
+.calculations {
   text-align: center;
 }
