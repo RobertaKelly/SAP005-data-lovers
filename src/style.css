@@ -80,7 +80,7 @@ body {
   background: linear-gradient(rgb(69, 245, 230), rgb(204, 60, 204));
   cursor: pointer;
   margin-top: 1vw;
-  margin-left: 83vw;
+  margin-left: 70vw;
 }
 
 #root {
@@ -92,7 +92,6 @@ body {
 
 .htmlBtn {
   display: inline-block;
-
 }
 
 .htmlBtn2 {
@@ -130,7 +129,7 @@ body {
 }
 
 #logo {
-  width: auto;
+  width: 50vw;
   height: 60%;
   display: flex;
   flex-wrap: wrap;
@@ -166,10 +165,9 @@ body {
 
 .embed-iframe {
   width: 30vw;
-  height: 35vh;
+  height: 26vh;
   margin-left: 30vw;
   margin-top: 4vw;
-
 }
 
 
@@ -244,7 +242,6 @@ body {
   border: inset;
   border-radius: 20px;
   padding: 30px;
-
 }
 
 .Fatos {
